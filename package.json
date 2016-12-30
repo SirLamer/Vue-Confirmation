@@ -1,9 +1,13 @@
 {
-  "name": "bootstrap-confirmation2",
-  "version": "2.4.0",
-  "homepage": "http://mistic100.github.io/Bootstrap-Confirmation",
-  "description": "Bootstrap plugin for on-place confirm boxes using Popover",
+  "name": "vue-confirmation",
+  "version": "0.1.0",
+  "homepage": "https://github.com/SirLamer/Vue-Confirmation",
+  "description": "Plugin for on-place confirm boxes using VueJS and Bootsrap Popover",
   "authors": [
+    {
+      "name": "Greg \"SirLamer\" Peden",
+      "email": "greg.j.peden@gmail.com"
+    },
     {
       "name": "Nimit Suwannagate",
       "email": "ethaizone@hotmail.com"
@@ -15,7 +19,7 @@
     }
   ],
   "dependencies" : {
-    "bootstrap": ">=3.2.0"
+    "vue": ">=2.1.0"
   },
   "devDependencies": {
     "grunt": "^1.0.0",
@@ -30,7 +34,8 @@
   "keywords": [
     "bootstrap",
     "confirmation",
-    "popup"
+    "popup",
+    "vue"
   ],
   "license": "Apache-2.0",
   "repository": {
